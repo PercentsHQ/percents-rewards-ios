@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zQtoAUXZnPe8Re/jBZbDrTh68ws=
+		IOM5W19UsavCcJVCcE4e5YLcJ7g=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x0sV2zNwHPODpa/UsDtgHubso1A=
+		d5BmFZFaS2oP47Ih9uaipihGOYY=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x0sV2zNwHPODpa/UsDtgHubso1A=
+		d5BmFZFaS2oP47Ih9uaipihGOYY=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qrkci/BtY3eZhoV2g01on0NmXPI=
+		yu/t7CLIwZbHAgorrk4I+WxhT90=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zQtoAUXZnPe8Re/jBZbDrTh68ws=
+		IOM5W19UsavCcJVCcE4e5YLcJ7g=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KaJheUcu0X4YNqOqPUxJ5ATLdlU=
+		stlaPxvP9lFEYbUhYg3DBNrVVIY=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KaJheUcu0X4YNqOqPUxJ5ATLdlU=
+		stlaPxvP9lFEYbUhYg3DBNrVVIY=
 		</data>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		22SkCXlH15Db7UDiWahb1ip3UEM=
+		asIBeUgSlg9pCxlVGaY6pHEPrWU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,14 +66,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Vs9+KVo0v76oncL4PtSWwi6ktk4quaa52aqIerqmGs=
+			CSdcCPxZn15CVKKqvDDCNNplLhmlRWuMyznyvDehYAs=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeMtTnd7mGNGblVHSqjA50eLe6N131VRctAJgC2pzGU=
+			ADodjixxjA5hhtypGA9Oks5qZrJvOqJXkUNSSIZKwd0=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -87,28 +87,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeMtTnd7mGNGblVHSqjA50eLe6N131VRctAJgC2pzGU=
+			ADodjixxjA5hhtypGA9Oks5qZrJvOqJXkUNSSIZKwd0=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aOZsS9gK6+hD44w73ssgAkCjsW/iVGvPsOH2+6TmJDA=
+			8ZtWW3Zu6Uyiyp/3JSFEUWB9A+ggo6qGJtlEd3z+Gd4=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Vs9+KVo0v76oncL4PtSWwi6ktk4quaa52aqIerqmGs=
+			CSdcCPxZn15CVKKqvDDCNNplLhmlRWuMyznyvDehYAs=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7ZgSOD0Uiiko1rIGI/V64E1TxWSbPNfrBZFUrL9Gy0=
+			tBiTZsiVfzNl2ZLibgYbiS5XlRmTwYn7daLtgHw+3nY=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7ZgSOD0Uiiko1rIGI/V64E1TxWSbPNfrBZFUrL9Gy0=
+			tBiTZsiVfzNl2ZLibgYbiS5XlRmTwYn7daLtgHw+3nY=
 			</data>
 		</dict>
 		<key>Modules/PercentsRewards.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0PGlx9czLDtsjV0fP9wKPHbXyWD5m7OyQOqSGvS8kQ=
+			9EBLUTpSkI4qJutGSAXC+45sUR9lUn9fZ40x6t6k9J8=
 			</data>
 		</dict>
 	</dict>

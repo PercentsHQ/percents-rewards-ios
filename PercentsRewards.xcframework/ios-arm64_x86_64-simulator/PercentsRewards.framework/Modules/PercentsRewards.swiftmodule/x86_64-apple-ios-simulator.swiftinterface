@@ -10,5 +10,4 @@ public struct PercentsRewards {
     get
   }
   public init()
-  public func createLol()
 }
