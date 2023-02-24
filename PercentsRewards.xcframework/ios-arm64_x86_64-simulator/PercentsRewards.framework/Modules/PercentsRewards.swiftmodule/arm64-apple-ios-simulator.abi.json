@@ -1,0 +1,119 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "PercentsRewards",
+        "printedName": "PercentsRewards",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PercentsRewardsAAV4textSSvp",
+            "mangledName": "$s15PercentsRewardsAAV4textSSvp",
+            "moduleName": "PercentsRewards",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PercentsRewardsAAV4textSSvg",
+                "mangledName": "$s15PercentsRewardsAAV4textSSvg",
+                "moduleName": "PercentsRewards",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PercentsRewards",
+                "printedName": "PercentsRewards.PercentsRewards",
+                "usr": "s:15PercentsRewardsAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15PercentsRewardsAAVABycfc",
+            "mangledName": "$s15PercentsRewardsAAVABycfc",
+            "moduleName": "PercentsRewards",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createLol",
+            "printedName": "createLol()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PercentsRewardsAAV9createLolyyF",
+            "mangledName": "$s15PercentsRewardsAAV9createLolyyF",
+            "moduleName": "PercentsRewards",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15PercentsRewardsAAV",
+        "mangledName": "$s15PercentsRewardsAAV",
+        "moduleName": "PercentsRewards",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/PercentsRewards.swift",
+      "kind": "StringLiteral",
+      "offset": 67,
+      "length": 15,
+      "value": "\"Hello, World!\""
+    }
+  ]
+}
