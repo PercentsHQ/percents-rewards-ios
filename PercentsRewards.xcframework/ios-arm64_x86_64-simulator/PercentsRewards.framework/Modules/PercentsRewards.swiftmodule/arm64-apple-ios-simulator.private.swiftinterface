@@ -6,8 +6,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 public struct PercentsRewards {
-  public var text: Swift.String {
-    get
-  }
   public init()
+  public func newMethod() -> Swift.String
 }

@@ -10,51 +10,6 @@
         "printedName": "PercentsRewards",
         "children": [
           {
-            "kind": "Var",
-            "name": "text",
-            "printedName": "text",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15PercentsRewardsAAV4textSSvp",
-            "mangledName": "$s15PercentsRewardsAAV4textSSvp",
-            "moduleName": "PercentsRewards",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15PercentsRewardsAAV4textSSvg",
-                "mangledName": "$s15PercentsRewardsAAV4textSSvg",
-                "moduleName": "PercentsRewards",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -91,6 +46,9 @@
             "usr": "s:15PercentsRewardsAAV9newMethodSSyF",
             "mangledName": "$s15PercentsRewardsAAV9newMethodSSyF",
             "moduleName": "PercentsRewards",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -105,13 +63,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/PercentsRewards.swift",
-      "kind": "StringLiteral",
-      "offset": 67,
-      "length": 15,
-      "value": "\"Hello, World!\""
-    }
-  ]
+  "ConstValues": []
 }
