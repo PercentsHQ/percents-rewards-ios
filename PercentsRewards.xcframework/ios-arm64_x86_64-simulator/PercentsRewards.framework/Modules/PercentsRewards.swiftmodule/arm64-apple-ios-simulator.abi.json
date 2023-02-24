@@ -74,6 +74,24 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "newMethod",
+            "printedName": "newMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PercentsRewardsAAV9newMethodSSyF",
+            "mangledName": "$s15PercentsRewardsAAV9newMethodSSyF",
+            "moduleName": "PercentsRewards",
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
