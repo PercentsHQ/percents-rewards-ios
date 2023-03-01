@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PercentsRewards
+import CachedAsyncImage
 import Combine
 import Foundation
 import Foundation/*.Bundle*/
@@ -107,19 +108,6 @@ public struct CurrencyTextField : SwiftUI.UIViewRepresentable {
   }
   public typealias Body = Swift.Never
   public typealias UIViewType = UIKit.UITextField
-}
-@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
-public struct CachedAsyncImage<Content> : SwiftUI.View where Content : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public init(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1) where Content == SwiftUI.Image
-  public init(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1) where Content == SwiftUI.Image
-  public init<I, P>(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> I, @SwiftUI.ViewBuilder placeholder: @escaping () -> P) where Content == SwiftUI._ConditionalContent<I, P>, I : SwiftUI.View, P : SwiftUI.View
-  public init<I, P>(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> I, @SwiftUI.ViewBuilder placeholder: @escaping () -> P) where Content == SwiftUI._ConditionalContent<I, P>, I : SwiftUI.View, P : SwiftUI.View
-  public init(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, transaction: SwiftUI.Transaction = Transaction(), @SwiftUI.ViewBuilder content: @escaping (SwiftUI.AsyncImagePhase) -> Content)
-  public init(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, transaction: SwiftUI.Transaction = Transaction(), @SwiftUI.ViewBuilder content: @escaping (SwiftUI.AsyncImagePhase) -> Content)
-  public typealias Body = @_opaqueReturnTypeOf("$s15PercentsRewards16CachedAsyncImageV4bodyQrvp", 0) __<Content>
 }
 public struct MoneyItem : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public let amount: Swift.Int
@@ -291,7 +279,7 @@ extension Swift.String {
     public static let cents: Swift.String
   }
 }
-public struct PR {
+public struct PRewards {
   public static func configure()
   public static func getRewardsViewController() -> UIKit.UIViewController
 }
