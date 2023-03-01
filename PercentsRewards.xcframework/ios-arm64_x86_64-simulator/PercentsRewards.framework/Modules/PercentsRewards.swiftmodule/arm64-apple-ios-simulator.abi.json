@@ -7591,8 +7591,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PercentsRewards",
-        "printedName": "PercentsRewards",
+        "name": "PR",
+        "printedName": "PR",
         "children": [
           {
             "kind": "Function",
@@ -7606,8 +7606,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15PercentsRewardsAAV9configureyyFZ",
-            "mangledName": "$s15PercentsRewardsAAV9configureyyFZ",
+            "usr": "s:15PercentsRewards2PRV9configureyyFZ",
+            "mangledName": "$s15PercentsRewards2PRV9configureyyFZ",
             "moduleName": "PercentsRewards",
             "static": true,
             "declAttributes": [
@@ -7628,8 +7628,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15PercentsRewardsAAV03getB14ViewControllerSo06UIViewE0CyFZ",
-            "mangledName": "$s15PercentsRewardsAAV03getB14ViewControllerSo06UIViewE0CyFZ",
+            "usr": "s:15PercentsRewards2PRV03getB14ViewControllerSo06UIViewF0CyFZ",
+            "mangledName": "$s15PercentsRewards2PRV03getB14ViewControllerSo06UIViewF0CyFZ",
             "moduleName": "PercentsRewards",
             "static": true,
             "declAttributes": [
@@ -7639,8 +7639,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:15PercentsRewardsAAV",
-        "mangledName": "$s15PercentsRewardsAAV",
+        "usr": "s:15PercentsRewards2PRV",
+        "mangledName": "$s15PercentsRewards2PRV",
         "moduleName": "PercentsRewards",
         "declAttributes": [
           "AccessControl"

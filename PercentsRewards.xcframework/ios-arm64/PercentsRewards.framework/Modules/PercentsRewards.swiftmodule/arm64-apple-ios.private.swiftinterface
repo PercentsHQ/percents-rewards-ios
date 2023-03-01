@@ -291,7 +291,7 @@ extension Swift.String {
     public static let cents: Swift.String
   }
 }
-public struct PercentsRewards {
+public struct PR {
   public static func configure()
   public static func getRewardsViewController() -> UIKit.UIViewController
 }
