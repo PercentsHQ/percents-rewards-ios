@@ -3352,10 +3352,13 @@
       },
       {
         "kind": "Import",
-        "name": "CachedAsyncImage",
-        "printedName": "CachedAsyncImage",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "PercentsRewards"
+        "moduleName": "PercentsRewards",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -11167,58 +11170,100 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 531,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3185,
-      "length": 3,
-      "value": "512"
-    },
-    {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3189,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3194,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3214,
+      "offset": 570,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 3216,
+      "offset": 833,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1538,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2009,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedAsyncImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2396,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3161,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3165,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3221,
+      "offset": 3170,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView.swift",
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3226,
+      "offset": 3190,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3192,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3197,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/georgiifesenko\/Developer\/percents-internal-rewards-ios\/Sources\/PercentsRewards\/Models\/Base\/CachedImageView\/CachedImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3202,
       "length": 4,
       "value": "1024"
     },

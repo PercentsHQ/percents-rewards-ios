@@ -11,9 +11,6 @@ let package = Package(
             name: "PercentsRewards",
             targets: ["PercentsRewardsTargets"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/lorenzofiamingo/swiftui-cached-async-image", .upToNextMajor(from: "2.0.0"))
-    ],
     targets: [
         .binaryTarget(
             name: "PercentsRewards",
@@ -22,8 +19,7 @@ let package = Package(
         .target(
             name: "PercentsRewardsTargets",
             dependencies: [
-                .target(name: "PercentsRewards"),
-                .product(name: "CachedAsyncImage", package: "swiftui-cached-async-image")
+                .target(name: "PercentsRewards")
             ],
             path: "Sources"
         )
