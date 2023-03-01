@@ -1,0 +1,332 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PercentsRewards
+import Combine
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct AYCIOColor {
+  public static let ashBlack: SwiftUI.Color
+  public static let ashBackgroundApp: SwiftUI.Color
+  public static let ashBackgroundElement: SwiftUI.Color
+  public static let ashWhite: SwiftUI.Color
+  public static let ashBackgroundSoft: SwiftUI.Color
+  public static let ashOutline: SwiftUI.Color
+  public static let ashForegroundInactive: SwiftUI.Color
+  public static let ashForegroundSoft: SwiftUI.Color
+  public static let ashForegroundStrong: SwiftUI.Color
+  public static let cobaltForegroundSecondary: SwiftUI.Color
+  public static let cobaltBackgroundSecondary: SwiftUI.Color
+  public static let cobaltForegroundPrimary: SwiftUI.Color
+  public static let cobaltBackgroundPrimary: SwiftUI.Color
+  public static let rubyForegroundSecondary: SwiftUI.Color
+  public static let rubyBackgroundSecondary: SwiftUI.Color
+  public static let rubyForegroundPrimary: SwiftUI.Color
+  public static let rubyBackgroundPrimary: SwiftUI.Color
+  public static let emeraldForegroundSecondary: SwiftUI.Color
+  public static let emeraldBackgroundSecondary: SwiftUI.Color
+  public static let emeraldForegroundPrimary: SwiftUI.Color
+  public static let emeraldBackgroundPrimary: SwiftUI.Color
+}
+extension SwiftUI.Font {
+  public static func gilroyRegular(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func gilroyRegularItalic(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func gilroyMedium(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func gilroySemibold(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func gilroySemiboldItalic(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func gilroyBold(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func robotoMonoRegular(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+  public static func robotoMonoMedium(style: SwiftUI.Font.TextStyle) -> SwiftUI.Font
+}
+public enum ButtonColor {
+  case ash
+  case cobalt
+  case emerald
+  case secondary
+  case secondaryCobalt
+  case secondaryRuby
+  case tertiary
+  public static func == (a: PercentsRewards.ButtonColor, b: PercentsRewards.ButtonColor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct AYCIOButton : SwiftUI.View {
+  public init(title: SwiftUI.LocalizedStringKey, color: PercentsRewards.ButtonColor, buttonSize: PercentsRewards.AYCIOButtonSize = .large, isLoading: SwiftUI.Binding<Swift.Bool>? = nil, canTap: Swift.Bool = true, action: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15PercentsRewards11AYCIOButtonV4bodyQrvp", 0) __
+}
+public enum AYCIOButtonSize {
+  case medium
+  case large
+  public static func == (a: PercentsRewards.AYCIOButtonSize, b: PercentsRewards.AYCIOButtonSize) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ActivityIndicatorView : SwiftUI.View {
+  public enum IndicatorType {
+    case `default`
+    case arcs
+    case rotatingDots
+    case flickeringDots
+    case scalingDots
+    case opacityDots
+    case equalizer
+    case growingArc(_: SwiftUI.Color = .red)
+    case growingCircle
+    case gradient([SwiftUI.Color], _: CoreGraphics.CGLineCap = .butt)
+  }
+  public init(isVisible: SwiftUI.Binding<Swift.Bool>, type: PercentsRewards.ActivityIndicatorView.IndicatorType)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15PercentsRewards21ActivityIndicatorViewV4bodyQrvp", 0) __
+}
+public struct CurrencyTextField : SwiftUI.UIViewRepresentable {
+  public init(_ placeholder: Swift.String = "", value: SwiftUI.Binding<Swift.Double?>, isResponder: SwiftUI.Binding<Swift.Bool>? = nil, tag: Swift.Int = 0, font: UIKit.UIFont? = nil, foregroundColor: UIKit.UIColor? = nil, placeholderColor: UIKit.UIColor? = nil, textAlignment: UIKit.NSTextAlignment? = nil, contentType: UIKit.UITextContentType? = nil, autocorrection: UIKit.UITextAutocorrectionType = .default, autocapitalization: UIKit.UITextAutocapitalizationType = .sentences, keyboardType: UIKit.UIKeyboardType = .numberPad, returnKeyType: UIKit.UIReturnKeyType = .default, isSecure: Swift.Bool = false, isUserInteractionEnabled: Swift.Bool = true, clearsOnBeginEditing: Swift.Bool = false, onReturn: @escaping () -> Swift.Void = {}, onEditingChanged: @escaping (Swift.Bool) -> Swift.Void = { _ in })
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftUI.UIViewRepresentableContext<PercentsRewards.CurrencyTextField>) -> UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> PercentsRewards.CurrencyTextField.Coordinator
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ textField: UIKit.UITextField, context: SwiftUI.UIViewRepresentableContext<PercentsRewards.CurrencyTextField>)
+  @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class Coordinator : ObjectiveC.NSObject, UIKit.UITextFieldDelegate {
+    @_Concurrency.MainActor(unsafe) @objc public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+    @_Concurrency.MainActor(unsafe) @objc public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+    @_Concurrency.MainActor(unsafe) @objc public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+    @_Concurrency.MainActor(unsafe) @objc public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = UIKit.UITextField
+}
+@available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, *)
+public struct CachedAsyncImage<Content> : SwiftUI.View where Content : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public init(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1) where Content == SwiftUI.Image
+  public init(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1) where Content == SwiftUI.Image
+  public init<I, P>(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> I, @SwiftUI.ViewBuilder placeholder: @escaping () -> P) where Content == SwiftUI._ConditionalContent<I, P>, I : SwiftUI.View, P : SwiftUI.View
+  public init<I, P>(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, @SwiftUI.ViewBuilder content: @escaping (SwiftUI.Image) -> I, @SwiftUI.ViewBuilder placeholder: @escaping () -> P) where Content == SwiftUI._ConditionalContent<I, P>, I : SwiftUI.View, P : SwiftUI.View
+  public init(url: Foundation.URL?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, transaction: SwiftUI.Transaction = Transaction(), @SwiftUI.ViewBuilder content: @escaping (SwiftUI.AsyncImagePhase) -> Content)
+  public init(urlRequest: Foundation.URLRequest?, urlCache: Foundation.URLCache = .shared, scale: CoreFoundation.CGFloat = 1, transaction: SwiftUI.Transaction = Transaction(), @SwiftUI.ViewBuilder content: @escaping (SwiftUI.AsyncImagePhase) -> Content)
+  public typealias Body = @_opaqueReturnTypeOf("$s15PercentsRewards16CachedAsyncImageV4bodyQrvp", 0) __<Content>
+}
+public struct MoneyItem : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public let amount: Swift.Int
+  public let currency: Swift.String
+  public let currency_exponent: Swift.Int
+  public init(amount: Swift.Int, currency: Swift.String, currency_exponent: Swift.Int)
+  public static func + (lhs: PercentsRewards.MoneyItem, rhs: PercentsRewards.MoneyItem) -> PercentsRewards.MoneyItem
+  public static func == (a: PercentsRewards.MoneyItem, b: PercentsRewards.MoneyItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+extension PercentsRewards.MoneyItem {
+  public var amountNoCentsStringFormatted: Swift.String {
+    get
+  }
+  public var amountStringFormatted: Swift.String {
+    get
+  }
+}
+public struct BrandDetails : Swift.Identifiable, Swift.Equatable {
+  public typealias Identifier = Swift.String
+  public let id: PercentsRewards.BrandDetails.Identifier
+  public let brandLogo: Foundation.URL
+  public let brandName: Swift.String
+  public let brandBanner: Foundation.URL
+  public let brandCardImage: Foundation.URL
+  public var isActive: Swift.Bool
+  public var balance: PercentsRewards.MoneyItem
+  public let legalUrl: Foundation.URL
+  public let offers: [PercentsRewards.Offer]
+  public let predefinedTopupAmounts: [PercentsRewards.MoneyItem]
+  public let brandBalancesDescription: Swift.String
+  public let minTopUpAmount: PercentsRewards.MoneyItem
+  public init(id: PercentsRewards.BrandDetails.Identifier, brandLogo: Foundation.URL, brandName: Swift.String, brandBanner: Foundation.URL, brandCardImage: Foundation.URL, isActive: Swift.Bool, balance: PercentsRewards.MoneyItem, legalUrl: Foundation.URL, offers: [PercentsRewards.Offer], predefinedTopupAmounts: [PercentsRewards.MoneyItem], brandBalancesDescription: Swift.String, minTopUpAmount: PercentsRewards.MoneyItem)
+  public static func == (a: PercentsRewards.BrandDetails, b: PercentsRewards.BrandDetails) -> Swift.Bool
+  public typealias ID = PercentsRewards.BrandDetails.Identifier
+}
+public struct Offer : Swift.Equatable, Swift.Hashable {
+  public let type: PercentsRewards.OfferType
+  public let offerCondition: PercentsRewards.OfferCondition
+  public init(type: PercentsRewards.OfferType, offerCondition: PercentsRewards.OfferCondition)
+  public static func == (a: PercentsRewards.Offer, b: PercentsRewards.Offer) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct OfferInfo : Swift.Equatable, Swift.Hashable {
+  public let percentage: Swift.Double
+  public let amount: PercentsRewards.MoneyItem?
+  public init(percentage: Swift.Double, amount: PercentsRewards.MoneyItem?)
+  public static func == (a: PercentsRewards.OfferInfo, b: PercentsRewards.OfferInfo) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OfferType : Swift.Equatable, Swift.Hashable {
+  case activeCashback(PercentsRewards.OfferInfo)
+  case balanceTopupCashback(PercentsRewards.OfferInfo)
+  public static func == (a: PercentsRewards.OfferType, b: PercentsRewards.OfferType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OfferCondition : Swift.String, Swift.Equatable, Swift.Hashable {
+  case online
+  case offline
+  case onlineAndOffline
+  public var prettyString: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension PercentsRewards.BrandDetails {
+  public var offerConditionPrettyString: Swift.String {
+    get
+  }
+  public var topupBalancePercentage: Swift.Double? {
+    get
+  }
+}
+public struct BrandDetailsDto : Swift.Codable {
+  public let id: Swift.String
+  public let brand_logo: Swift.String
+  public let brand_name: Swift.String
+  public let brand_banner: Swift.String
+  public let brand_card_image: Swift.String
+  public let is_active: Swift.Bool
+  public let balance: PercentsRewards.MoneyItem
+  public let legal_url: Swift.String
+  public let offers: [PercentsRewards.OfferDto]
+  public let predefined_top_up_amounts: [PercentsRewards.MoneyItem]
+  public let brand_balances_description: Swift.String
+  public let min_top_up_amount: PercentsRewards.MoneyItem
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct OfferDto : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public let type: Swift.String
+  public let offer_condition: Swift.String
+  public let percentage: Swift.Double?
+  public let amount: PercentsRewards.MoneyItem?
+  public static func == (a: PercentsRewards.OfferDto, b: PercentsRewards.OfferDto) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+extension PercentsRewards.BrandDetailsDto {
+  public func toDomain() -> PercentsRewards.BrandDetails?
+}
+extension PercentsRewards.OfferDto {
+  public func toDomain() -> PercentsRewards.Offer?
+}
+extension Swift.Double {
+  public var usDollarString: Swift.String {
+    get
+  }
+  public var usDollarNoCentsString: Swift.String {
+    get
+  }
+  public var twoDecimalString: Swift.String {
+    get
+  }
+  public var usDollarPretty: Swift.String {
+    get
+  }
+}
+extension Swift.String {
+  public static func getRandomString(_ length: Swift.Int) -> Swift.String
+}
+extension Swift.String {
+  public struct literal {
+    public static let empty: Swift.String
+    public static let doubleDash: Swift.String
+    public static let dash: Swift.String
+    public static let enDash: Swift.String
+    public static let emDash: Swift.String
+    public static let forwardSlash: Swift.String
+    public static let backSlash: Swift.String
+    public static let pipe: Swift.String
+    public static let comma: Swift.String
+    public static let period: Swift.String
+    public static let bullet: Swift.String
+    public static let masked4Bullet: Swift.String
+    public static let masked3Bullet: Swift.String
+    public static let maskedMonthYear: Swift.String
+    public static let maskedCardPrefix: Swift.String
+    public static let spaceSlashSpace: Swift.String
+    public static let space: Swift.String
+    public static let commaSpace: Swift.String
+    public static let openParenthesis: Swift.String
+    public static let closeParenthesis: Swift.String
+    public static let numberSign: Swift.String
+    public static let plusSign: Swift.String
+    public static let percent: Swift.String
+    public static let cents: Swift.String
+  }
+}
+public struct PercentsRewards {
+  public static func configure()
+  public static func getRewardsViewController() -> UIKit.UIViewController
+}
+public enum BrandBalanceError : Swift.Error {
+  case dtoWasNotConvertedToDomain
+  public static func == (a: PercentsRewards.BrandBalanceError, b: PercentsRewards.BrandBalanceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class BrandBalanceRepository {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func fetchAllUserBrands() async throws -> [PercentsRewards.BrandDetails]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func fetchBrandDetails(by id: Swift.String) async throws -> PercentsRewards.BrandDetails
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func topupBrandBalance(brandId: Swift.String, amount: PercentsRewards.MoneyItem, idempotencyToken: Swift.String) async throws -> PercentsRewards.BrandDetails
+  #endif
+  @objc deinit
+}
+extension Swift.Collection {
+  public var isNotEmpty: Swift.Bool {
+    get
+  }
+}
+extension SwiftUI.ForEach where ID == Data.Element, Content : SwiftUI.View {
+  public init(values: Data, content: @escaping (Data.Element) -> Content)
+}
+extension PercentsRewards.ButtonColor : Swift.Equatable {}
+extension PercentsRewards.ButtonColor : Swift.Hashable {}
+extension PercentsRewards.AYCIOButtonSize : Swift.Equatable {}
+extension PercentsRewards.AYCIOButtonSize : Swift.Hashable {}
+extension PercentsRewards.OfferCondition : Swift.RawRepresentable {}
+extension PercentsRewards.BrandBalanceError : Swift.Equatable {}
+extension PercentsRewards.BrandBalanceError : Swift.Hashable {}
