@@ -9,12 +9,19 @@ let package = Package(
     products: [
         .library(
             name: "PercentsRewards",
-            targets: ["PercentsRewards"])
+            targets: ["PercentsRewardsTargets"])
     ],
     targets: [
         .binaryTarget(
             name: "PercentsRewards",
             path: "PercentsRewards.xcframework"
+        ),
+        .target(
+            name: "PercentsRewardsTargets",
+            dependencies: [
+                .target(name: "PercentsRewards")
+            ],
+            path: "Sources"
         )
     ]
 )
